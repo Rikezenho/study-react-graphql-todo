@@ -1,0 +1,16 @@
+{
+  "name": "study-react-hooks-graphql-mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev-backend\" \"npm:dev-frontend\"",
+    "dev-backend": "cd backend && npm run start",
+    "dev-frontend": "cd frontend && npm run start"
+  },
+  "license": "MIT"
+}
