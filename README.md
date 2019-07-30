@@ -2,8 +2,6 @@
 
 Um simples to-do utilizando React, React Hooks, GraphQL e Mongoose, conectado a um banco do MLab.
 
----
-
 ## Instalação
 
 O projeto é separado em API back-end com GraphQL e Mongoose, e um front-end em React.
@@ -15,25 +13,27 @@ MONGODB_USERNAME=<username>
 MONGODB_PASSWORD=<password>
 ```
 
-Depois, utilizando Node.js 8+ e Yarn, rode o comando:
+Depois, utilizando Node.js 8+ e Yarn, instale todas as dependências com o comando:
 
 ```
 yarn
 ```
 
-Para instalar todas as dependências utilizando Yarn Workspaces.
-
-Para rodar o projeto:
+Depois, para rodar o projeto:
 ```
 yarn dev
 ```
 
-Para buildar o projeto:
+O back-end iniciará em `http://localhost:9999`, e o front-end em `http://localhost:3000`.
+
+---
+
+Para buildar o front-end:
 ```
-yarn build
+yarn build-front
 ```
 
-Para testes unitáros:
+Para testes unitários:
 ```
-yarn test
+yarn test-front
 ```

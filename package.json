@@ -10,7 +10,9 @@
   "scripts": {
     "dev": "concurrently \"npm:dev-backend\" \"npm:dev-frontend\"",
     "dev-backend": "cd backend && npm run start",
-    "dev-frontend": "cd frontend && npm run start"
+    "dev-frontend": "cd frontend && npm run start",
+    "build-frontend": "cd frontend && npm run build",
+    "test": "cd frontend && npm run test"
   },
   "license": "MIT"
 }
