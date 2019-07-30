@@ -1,0 +1,4 @@
+type Query {
+    todos(done: Boolean): [Todo!]!
+    todo(id: ID): Todo
+}   
